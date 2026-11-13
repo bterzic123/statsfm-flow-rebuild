@@ -1,0 +1,20 @@
+{
+  "scope": "flow",
+  "today": { "text": "every install sees the same tour with the notification prompt on the first slide, guesses its #1 artist on real data, then meets one \"Unlock everything\" paywall with the tracking prompt on top", "source": "audit_frames" },
+  "prices": { "yearly_plus": "€6.99", "yearly_pro": "€9.99", "lifetime_plus": "€14.99", "trial": "none", "source": "their in-app paywall, EU storefront; App Store purchase list shows no trial" },
+  "asks": ["Guess your #1 artist!", "Which track by Rouzi do you think you listened to the most?"],
+  "paywall": { "headline": "Unlock everything", "uses_answers": false },
+  "rebuild": "the #1 artist the quiz finds names the Pro headline, the payoff shows their lifetime numbers locked, and the plans come first with the rating beside them",
+  "flows": [
+    { "channel": "Meta", "headline": "Count every Rouzi stream, since day one", "paywall_opens_on": "Pro, pre-selected", "note": "from the \"only ranked #89\" creator ad" },
+    { "channel": "Meta", "headline": "Every hour of Rouzi, since day one", "paywall_opens_on": "Pro, pre-selected", "note": "from the \"400 hours of my life\" creator ad" },
+    { "channel": "Apple Ads", "term": "spotistats", "headline": "All of Rouzi, past #50 and since day one", "paywall_opens_on": "Pro, pre-selected" }
+  ],
+  "ideas": [
+    { "n": 1, "title": "Name their #1 artist in the Pro headline", "screen": "Paywall", "outcome": "CR +15–20%" },
+    { "n": 2, "title": "Show the locked number on the payoff", "screen": "Payoff", "outcome": "CR +10–20%" },
+    { "n": 3, "title": "Ask for notifications after Pro, not on the first slide", "screen": "Home", "outcome": "CR +10–15%" },
+    { "n": 4, "title": "Put your rating next to the price", "screen": "Paywall", "outcome": "CR +10–15%" },
+    { "n": 5, "title": "Bring the plans up and make Pro the obvious pick", "screen": "Paywall", "outcome": "CR +5–15% · ARPU +3–8%" }
+  ]
+}
